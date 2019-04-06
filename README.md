@@ -4,6 +4,8 @@ For this homework assignment, our goal is to use what we've learned in Node, usi
 
 I have run into a problem as I sit here, minutes before the submission deadline, this seems to persist in my my GitBash without doing anything else. It does not load my local host page because it never fully runs. I'm not sure why this is happening. I have restarted my computer several times and while that hasn't worked, I've also looked online for gitbash codes to help me stop, restart or kill what's going on. 
 
+[nodemon] starting `node server.js`  ----doesn't change.. keeps trying to load. 
+
 This has been a great learning process. But, I am still learning.
 
 Thank you for reading. 
