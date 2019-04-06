@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(19, 18, 18);
+    font-family: 'Nunito', sans-serif;
+}
+
+* {
+    background-color: rgb(211, 194, 9);
+}
+
+pre {
+    background-color: rgb(158, 57, 241);
+    font-size: 1.5em;
+    overflow: hidden;
+    font-family: 'Nunito', sans-serif;
+}
+
+img {
+    width: 25%;
+}
+
+.form-control[readonly] {
+    color: rgb(110, 109, 109);
+    margin: 5px;
+    border: 20px;
+    font-size: 1.5em;
+    font-family: 'Nunito', sans-serif;
+}

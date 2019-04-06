@@ -1,18 +1,18 @@
-var express = require("express");
+const express = require("express");
 
-var router = express.Router();
+const router = express.Router();
 
 // Import the model (burger.js) to use its db functions
-var burger = require("../models/burger.js");
+const burger = require("../models/burger.js");
 
 // Create routes and set up logic where required.
 router.get("/", function(req, res) {
   burger.all(function(data) {
-    var hbsObject = {
+    var bgData = {
       burgers: data
     };
-    console.log(hbsObject);
-    res.render("index", hbsObject);
+    console.log(bgData);
+    res.render("index", bgData);
   });
 });
 
@@ -39,5 +39,5 @@ router.put("/:id", function(req, res) {
 });
 
 
-// Export routes for server.js to use.
+// Export routes for server.js to use
 module.exports = router;
