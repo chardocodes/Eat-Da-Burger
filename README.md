@@ -1,5 +1,14 @@
 # Node Express Handlebars
 
+For this homework assignment, our goal is to use what we've learned in Node, using express and handlebars. We have learned to use the MVC approach; Model, View and Control. I am also using ORM, which I am still learning more about. 
+
+I have run into a problem as I sit here, minutes before the submission deadline, this seems to persist in my my GitBash without doing anything else. It does not load my local host page because it never fully runs. I'm not sure why this is happening. I have restarted my computer several times and while that hasn't worked, I've also looked online for gitbash codes to help me stop, restart or kill what's going on. 
+
+This has been a great learning process. But, I am still learning.
+
+Thank you for reading. 
+Chardo Lawson
+
 ### Overview
 
 In this assignment, you'll create a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!). Be sure to follow the MVC design pattern; use Node and MySQL to query and route data in your app, and Handlebars to generate your HTML.
